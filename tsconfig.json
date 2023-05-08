@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react-native",
+    "baseUrl": ".",
+    "paths": {
+      "@Components/*": ["src/components/*"],
+      "@Components": ["src/components"],
+      "@Pages/*": ["src/pages/*"],
+      "@Pages": ["src/pages"],
+      "@Assets": ["./assets"],
+      "@Assets/*": ["./assets/*"]
+    }
+  }
+}
